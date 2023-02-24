@@ -4,7 +4,7 @@
  * @param {number} [totalPoints=20] - The number of points to generate along the path.
  * @returns {Array<{x: number, y: number}>} - An array of points along the SVG path.
  */
-export default svgToPolygonPoints(pathString, totalPoints = 20, viewBox = "0 0 500 500", width = 500, height = 500) {
+export default function svgToPolygonPoints(pathString, totalPoints = 20, viewBox = "0 0 500 500", width = 500, height = 500) {
     if (!pathString) {
         return true;
     }
