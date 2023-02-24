@@ -10,18 +10,18 @@ export default function svgToPolygonPoints(pathString, totalPoints = 20, viewBox
     }
 
     const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-    svg.setAttribute('viewBox', viewBox);
-    svg.setAttribute('width', width);
-    svg.setAttribute('height', height);
+    // svg.setAttribute('viewBox', viewBox);
+    // svg.setAttribute('width', width);
+    // svg.setAttribute('height', height);
 
     const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
     path.setAttribute('d', pathString);
     svg.appendChild(path);
-    console.log(svg.outerHTML);
+    
 
     const canvas = document.createElement('canvas');
-    canvas.width = width;
-    canvas.height = height;
+    canvas.width = 500;
+    canvas.height = 500;
     const ctx = canvas.getContext('2d');
 
     const points = [];
@@ -30,6 +30,6 @@ export default function svgToPolygonPoints(pathString, totalPoints = 20, viewBox
         ctx.fillRect(x, y, 2, 2);
         points.push({ x, y });
     }
-
+    console.log(svg.getBBox());
     return {points, svg: svg.outerHTML};
 }
