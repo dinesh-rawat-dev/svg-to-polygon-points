@@ -1,6 +1,6 @@
 {
   "name": "svg-path-to-polygon-points",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)",
   "main": "src/index.js",
   "scripts": {
