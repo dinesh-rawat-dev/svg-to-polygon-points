@@ -15,8 +15,8 @@ export default function svgToPolygonPoints(pathString, totalPoints = 20) {
     svg.appendChild(path);
 
     const canvas = document.createElement('canvas');
-    canvas.width = 500;
-    canvas.height = 500;
+    canvas.width = 50;
+    canvas.height = 50;
     const ctx = canvas.getContext('2d');
 
     const points = [];
