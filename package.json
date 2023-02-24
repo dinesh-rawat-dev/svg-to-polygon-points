@@ -1,0 +1,26 @@
+{
+  "name": "svg-to-polygon-points",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechDivi/svg-to-polygon-points.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TechDivi/svg-to-polygon-points/issues"
+  },
+  "homepage": "https://github.com/TechDivi/svg-to-polygon-points#readme",
+  "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "jest": "^29.4.3",
+    "jsdom": "^21.1.0"
+  }
+}
