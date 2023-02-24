@@ -7,13 +7,13 @@ A simple npm module that converts an SVG path string into a polygon points strin
 ## Installation
 
 ```
-npm install svg-to-polygon-points
+npm install svg-path-to-polygon-points
 ```
 
 ## Usage
 
 ```
-const svgToPolygonPoints = require('svg-to-polygon-points');
+const svgToPolygonPoints = require('svg-path-to-polygon-points');
 const path = 'M100,100 L200,200 L300,100';
 const points = svgToPolygonPoints(path);
 console.log(points);
