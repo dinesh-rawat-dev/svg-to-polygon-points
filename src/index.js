@@ -17,6 +17,7 @@ export default function svgToPolygonPoints(pathString, totalPoints = 20, viewBox
     const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
     path.setAttribute('d', pathString);
     svg.appendChild(path);
+    console.log(svg.outerHTML);
 
     const canvas = document.createElement('canvas');
     canvas.width = width;
