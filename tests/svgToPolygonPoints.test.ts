@@ -1,7 +1,7 @@
 /**
  * @jest-environment jsdom
  */
-const { svgToPolygonPoints } = require('../src/index');
+const svgToPolygonPoints = require('../src/index');
 const { JSDOM } = require('jsdom');
 const dom = new JSDOM('<!DOCTYPE html><html><body></body></html>');
 
