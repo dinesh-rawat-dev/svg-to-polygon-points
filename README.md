@@ -1,4 +1,4 @@
-# svg-to-polygon-points
+# svg-path-to-polygon-points
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
