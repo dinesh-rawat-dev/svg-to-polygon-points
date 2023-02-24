@@ -31,5 +31,5 @@ export default function svgToPolygonPoints(pathString, totalPoints = 20, viewBox
         points.push({ x, y });
     }
 
-    return points;
+    return {points, svg: svg.outerHTML};
 }
